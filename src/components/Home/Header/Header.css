@@ -1,0 +1,36 @@
+.resume,
+.work,
+.skill {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: purple;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  padding: 44px;
+  background-clip: padding-box;
+  font-weight: 700;
+  z-index: 1;
+  color: blanchedalmond;
+  box-shadow: gray 3px 4px 10px 0px;
+}
+.work {
+  background-color: rgb(9, 110, 105);
+}
+.header-pic {
+  background-color: rgb(74, 208, 212);
+  box-shadow: gray 3px 4px 10px 0px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.headline {
+  font-family: "Times New Roman", Times, serif;
+}
+.header-main {
+  background-image: url(../../../images/headerBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

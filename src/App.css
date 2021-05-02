@@ -1,6 +1,19 @@
 .App {
   text-align: center;
+  background-color: #2c2d2f;
 }
+/* start of my css */
+.white-color {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #00a3e1;
+  font-weight: 600;
+}
+
+/* start of my css */
 
 .App-logo {
   height: 40vmin;
