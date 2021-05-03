@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+import resume from "../../../images/resume.pdf";
 
 const AboutMe = () => {
   return (
@@ -32,7 +33,10 @@ const AboutMe = () => {
           <h4>Email: rakhu_dey@yahoo.com</h4>
           <h4>Phone: +8801723692869</h4>
           <h4>Freelance: Available</h4>
-          <button className="btn button btn-primary"> Download Resume</button>
+          <button className="btn button btn-primary">
+            {" "}
+            <a href={resume}>Download Resume</a>
+          </button>
         </div>
       </div>
     </div>
