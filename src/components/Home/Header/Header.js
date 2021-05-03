@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../../../images/profile.jpg";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
+import resume from "../../../images/resume.pdf";
 
 const Header = () => {
   return (
@@ -20,11 +21,7 @@ const Header = () => {
             <a className="nav-item nav-link" href="#resume">
               <p className="resume">MY RESUME</p>
             </a>
-            <a
-              className="nav-item nav-link"
-              href="https://drive.google.com/file/d/1eTP1cwFVVEBg0HuR61uDMwCvA-3eFMvY/view?usp=sharing"
-              download="resume"
-            >
+            <a className="nav-item nav-link" href={resume} download="resume">
               <p className="work">DOWNLOAD RESUME</p>
             </a>
 
