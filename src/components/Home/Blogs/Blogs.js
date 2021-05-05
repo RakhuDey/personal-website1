@@ -40,7 +40,7 @@ const Blogs = () => {
           <h1 style={{ borderBottom: "1px solid white", color: "#1cc7c1" }}>
             BLOGS
           </h1>
-          <h4>Array find()</h4>
+          <h4 style={{ color: "#f13ff1" }}>Array find()</h4>
           <p className="">
             The find method returns the value in the array ...behind or forward
             position number and string value. But if u input any number or
@@ -65,7 +65,7 @@ const Blogs = () => {
           </p>
         </div>
         <div id="array_filter" className="white-color mt-5">
-          <h4>Array filter()</h4>
+          <h4 style={{ color: "#f13ff1" }}>Array filter()</h4>
           <p className="">
             The filter method is filtering array to find out the value of array
             which you input to the filter method, for example, length, position,
@@ -91,7 +91,7 @@ const Blogs = () => {
           </p>
         </div>
         <div id="number_toFixed" className="white-color mt-5">
-          <h4>Number toFixed()</h4>
+          <h4 style={{ color: "#f13ff1" }}>Number toFixed()</h4>
           <p className="mt-3">
             The toFixed method is a method of how many numbers are slowing after
             point and its slowing number after the pointer which is declared
