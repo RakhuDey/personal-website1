@@ -7,8 +7,7 @@ import resume from "../../../images/resume.pdf";
 const Header = () => {
   return (
     <div className="header-main">
-      <Navbar></Navbar>
-      <div id="home" className="row mt-5">
+      <div id="home" className="row ">
         <div className="md-col-6 m-5">
           <img className="header-pic" src={profile} alt="" />
         </div>

@@ -7,10 +7,12 @@ import Resume from "../Resume/Resume";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import Contract from "../Contract/Contract";
 import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   return (
     <div>
+      <Navbar></Navbar>
       <Header></Header>
       <Projects></Projects>
       <AboutMe></AboutMe>

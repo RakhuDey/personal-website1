@@ -6,6 +6,7 @@ import Projects from "./components/Home/Projects/Projects";
 import Resume from "./components/Home/Resume/Resume";
 import AboutMe from "./components/Home/AboutMe/AboutMe";
 import Contract from "./components/Home/Contract/Contract";
+import Blogs from "./components/Home/Blogs/Blogs";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Switch>
           <Route path="/about">
             <Home />
+          </Route>
+          <Route path="/blogs">
+            <Blogs />
           </Route>
           <Route path="/projects">
             <Projects />
