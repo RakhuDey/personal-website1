@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar  navbar-expand-lg navbar-light   ml-5">
-      <a className="navbar-brand white-color name  text-white" href="#">
+      <a className="navbar-brand white-color name text-white" href="#">
         Rakhu Dey
       </a>
       <div

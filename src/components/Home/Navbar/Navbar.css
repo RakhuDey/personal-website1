@@ -35,3 +35,7 @@
   font-weight: 700;
   font-size: x-large;
 }
+.navbar-nav {
+  position: fixed;
+  z-index: 1;
+}

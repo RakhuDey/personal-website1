@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="text-center">
       <ul className="social-media list-inline">
         <li className="list-inline-item">
-          <a href="//facebook.com">
+          <a href="//facebook.com/rahul.rakhu69">
             <FontAwesomeIcon className="icon" icon={faFacebookF} />
           </a>
         </li>
@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </li>
         <li className="list-inline-item">
-          <a href="//linkedin.com">
+          <a href="https://www.linkedin.com/in/rakhu-dey-678507148/">
             <FontAwesomeIcon className="icon" icon={faLinkedin} />
           </a>
         </li>

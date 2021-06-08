@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  background-color: #2c2d2f;
+  /* background-color: #095e79; */
+  background-image: url(../src/images/personal-BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* start of my css */
 .white-color {

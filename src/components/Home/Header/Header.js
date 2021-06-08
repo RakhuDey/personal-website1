@@ -28,12 +28,11 @@ const Header = () => {
               <p className="skill">MY SKILLS</p>
             </a>
           </div>
-          <div className="d-flex justify-content-center mt-5">
-            <p>
-              Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit.{" "}
-              <br />
-              Consequuntur harum quisquam <br /> tempore delectus voluptate.
-              Libero?
+          <div className="d-flex justify-content-center  mt-5">
+            <p className="header-paragraph">
+              I am a full-time Web Developer. <br />
+              Using JavaScript, React (JS), Next.JS, <br />
+              HTML, HTML5, CSS Bootstrap, ES6, Material UI.
             </p>
           </div>
         </div>

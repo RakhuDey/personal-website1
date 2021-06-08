@@ -29,8 +29,17 @@
 .headline {
   font-family: "Times New Roman", Times, serif;
 }
+.headline h1 {
+  font-size: 100px;
+}
+.headline h4 {
+  font-size: 50px;
+}
 .header-main {
   background-image: url(../../../images/headerBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.header-paragraph {
+  color: yellowgreen;
 }

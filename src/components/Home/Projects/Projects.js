@@ -5,8 +5,8 @@ import project2 from "../../../images/project-2.JPG";
 
 const Projects = () => {
   return (
-    <div id="project" className="row">
-      <div class="card col-md-4 p-3 m-5">
+    <div id="project" className="row ">
+      <div class="card col-md-5 p-3 m-5 ">
         <img src={project1} className="card-img-top" alt="..."></img>
         <div class="card-body">
           <h5 class="card-title">Project-1</h5>
@@ -17,7 +17,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div class="card col-md-4 p-3 m-5">
+      <div class="card col-md-5 p-3 m-5">
         <img src={project2} class="card-img-top" alt="..."></img>
         <div class="card-body">
           <h5 class="card-title">Project-2</h5>
@@ -31,7 +31,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div class="card col-md-4 p-3 m-5">
+      <div class="card col-md-5 p-3 m-5">
         <img src={project1} class="card-img-top" alt="..."></img>
         <div class="card-body">
           <h5 class="card-title">Project-1</h5>
@@ -42,7 +42,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div class="card col-md-4 p-3 m-5">
+      <div class="card col-md-5 p-3 m-5">
         <img src={project2} class="card-img-top" alt="..."></img>
         <div class="card-body">
           <h5 class="card-title">Project-2</h5>
